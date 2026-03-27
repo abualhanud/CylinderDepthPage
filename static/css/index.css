@@ -50,6 +50,16 @@ body {
   .publication-title {
       font-family: 'Google Sans', sans-serif;
   }
+
+    .gradient-title-text {
+      background: linear-gradient(90deg, #4f6df5 0%, #8a6ac8 45%, #e87b1f 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
   
   .publication-authors {
       font-family: 'Google Sans', sans-serif;
